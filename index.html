@@ -637,7 +637,7 @@
           <div class="row">
             <div class="col-md-12">
               <div class="form">
-                <form class="company_form">
+                <form class="company_form" id="contactForm">
                   <div class="form_inputs">
                     <div class="form-group">
                       <label>First name</label>
@@ -754,32 +754,32 @@
     </script>
     <!-- mail -->
     <script type="text/javascript">
-      $(".company_form").submit(function (e) {
-        e.preventDefault();
-        var formData = new FormData(this);
-        $.ajax({
-          url: "mailprocess.php",
-          type: "POST",
-          contentType: false,
-          processData: false,
-          data: formData,
-          beforeSend: function () {
-            $(".appoint").attr("disabled", true);
-            $(".appoint").val("Please wait...");
-          },
-          success: function (data) {
-            console.log(data);
-            if (data == 1) {
-              $(".company_form").trigger("reset");
-              window.location = "thankyou.html";
-            } else {
-              alert(data);
-            }
-          },
-        }).done(function () {
-          $(".appoint").attr("disabled", false);
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", async function (e) {
+          e.preventDefault();
+
+          const form = {
+            name: e.target.name.value,
+            email: e.target.email.value,
+            message: e.target.message.value,
+          };
+
+          document.getElementById("status").innerText = "Sending...";
+
+          try {
+            const res = await fetch("/api/send-email", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(form),
+            });
+
+            const data = await res.json();
+            document.getElementById("status").innerText = data.message;
+          } catch (err) {
+            document.getElementById("status").innerText = "Failed to send";
+          }
         });
-      });
     </script>
   </body>
 </html>
