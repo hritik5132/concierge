@@ -1,0 +1,1187 @@
+@media only screen and (max-width: 575.98px) {
+    .header_hero {
+        background: linear-gradient(to right, #FBBAA833 70%, #9ED4FF 30%);
+        padding: 1rem 0rem 10rem 1rem;
+        position: relative;
+    }
+
+    .header_hero .logo img {
+        width: 150px;
+    }
+
+    .header_hero .contactBtn {
+        margin-right: 1rem;
+    }
+
+    .contactBtn .btn {
+        font-size: 0.9rem;
+        padding: .75rem 1rem;
+        background: var(--primary);
+        font-weight: 400;
+        color: #fff;
+        border-radius: .65rem;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+    .hero_content .left_bx h2 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+
+    .hero_content .left_bx h2 br {
+        display: none;
+    }
+
+    .hero_content {
+        margin-top: 3rem;
+        width: 100%;
+    }
+
+    .hero_content .left_bx p {
+        font-size: 1rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-top: 1rem;
+    }
+
+    .hero_content .left_bx .btn {
+        margin-top: 0rem;
+        padding: .75rem 1rem;
+        font-size: .8rem;
+    }
+
+    .right_bx {
+        position: absolute;
+        bottom: 5%;
+        right: 0;
+        width: 63%;
+    }
+
+    .carLogo_scroll img {
+        width: 40% !important;
+    }
+
+    .two {
+        padding: 3rem 0rem;
+    }
+
+    .two .heading h2 {
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-align: center;
+        text-transform: capitalize;
+        line-height: 1.4;
+    }
+
+    .two_content .twoBox img {
+        width: 70px;
+        margin-bottom: 1rem;
+    }
+
+    .two_content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .two_content .twoBox {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 2rem;
+    }
+
+    .two_content .twoBox p {
+        font-size: 1rem;
+    }
+
+    .third {
+        padding: 3rem 0;
+    }
+
+    .third .heading h2 {
+        text-align: center;
+        font-size: 1.75rem;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .third_content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .third_content .thirdbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .third_content .thirdbox .boxtxt:nth-of-type(1) {
+        background-color: #9ED4FF;
+        padding: 3rem 1rem 3rem 1rem;
+        order: 1;
+    }
+
+    .third_content .thirdbox .boxtxt:nth-of-type(2) {
+        background-color: #EBDDCA;
+        padding: 3rem 1rem 3rem 1rem;
+    }
+
+    .third_content .thirdbox .boxtxt h3 {
+        font-size: 1.8rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    .third_content .thirdbox .boxtxt p {
+        font-size: 1rem;
+    }
+
+    .four {
+        padding: 3rem 0rem;
+    }
+
+    .four .four_left_bx h2 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .four .four_left_bx p:nth-of-type(1) {
+        font-size: 1rem;
+    }
+
+    .four .four_left_bx p:nth-of-type(2) {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .four .four_left_bx .btn {
+        margin-top: 0rem;
+    }
+
+    .four_left_bx {
+        margin-bottom: 2rem;
+    }
+
+    .five {
+        padding: 3rem 0;
+    }
+
+    .five .heading h1 {
+        font-size: 1.95rem;
+        text-align: center;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    .five .heading {
+        margin-bottom: 0rem;
+    }
+
+    .review_card .name h3 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+
+    .review_card .name {
+        margin-bottom: 1rem;
+    }
+
+    .six {
+        background-color: #EBDDCA5E;
+        padding: 3rem 0;
+    }
+
+    .six_content h2 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .six_content {
+        margin-top: 2rem;
+    }
+
+    .six_content ol li {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-top: 1rem;
+    }
+
+    .seven {
+        padding: 3rem 0;
+    }
+
+    .seven .left_bx h2 {
+        font-size: 1.75rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    .seven .left_bx p {
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        font-weight: 400;
+        margin-top: 1rem;
+    }
+
+    .eight {
+        padding: 3rem 0;
+    }
+
+    .eight .heading h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    .eight .heading p {
+        font-size: 1.1rem;
+    }
+
+    .nine {
+        background: url('./img/bg.png');
+        padding: 2rem 0;
+        background-repeat: no-repeat;
+    }
+
+    .nine h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    .nine h2 span {
+        display: inline;
+        font-weight: 700;
+    }
+
+    .nine p {
+        font-size: 1rem;
+        text-align: center;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    .ten {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(240, 240, 240, 0.9)), url('./img/footerbg.png');
+        position: relative;
+        margin-top: 3rem;
+        padding: 8rem 0 2rem 0;
+    }
+
+    .ten .form {
+        width: 100%;
+        background-color: #EBDDCA;
+        border-radius: 2rem;
+        padding: 2rem;
+        margin: 0;
+    }
+
+    .ten .form form .form_inputs {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 0rem;
+        flex-wrap: wrap;
+    }
+
+    .ten .form .form-group {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 1.5rem;
+    }
+
+    .ten img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 10px);
+        width: 68%;
+    }
+
+    .submit-btn {
+        text-align: center;
+        margin-top: 0rem;
+    }
+
+    .four_right_bx .tab-content {
+        width: 100%;
+        border-radius: 1.5rem;
+        max-height: 100%;
+        overflow: hidden;
+        min-height: 300px;
+    }
+
+    .four_right_bx .nav {
+        width: 100%;
+        margin: 0 !important;
+        flex-direction: row !important;
+        justify-content: space-between;
+    }
+
+    .four_right_bx .nav .nav-link {
+        padding: 0;
+        background: #fff;
+        border-radius: 1rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        width: 30%;
+        position: relative;
+        height: 50%;
+    }
+
+    .four_right_bx .nav .nav-link:nth-child(1)::after {
+        content: '1';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .four_right_bx .nav .nav-link:nth-child(2)::after {
+        content: '2';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .four_right_bx .nav .nav-link:nth-child(3)::after {
+        content: '3';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .four_right_bx .nav .nav-link.active {
+        color: #fff;
+    }
+}
+
+@media (min-width: 576px) {
+    .header_hero {
+        background: linear-gradient(to right, #FBBAA833 70%, #9ED4FF 30%);
+        padding: 1.5rem 0rem 15rem 1rem;
+        position: relative;
+    }
+
+    .hero_content {
+        margin-top: 3rem;
+        width: 95%;
+    }
+
+    .hero_content .left_bx h2 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+
+    .hero_content .left_bx p {
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-top: 1rem;
+    }
+
+    .header_hero .contactBtn {
+        margin-right: 1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: .75rem 2rem;
+    }
+
+    .right_bx {
+        position: absolute;
+        bottom: 1%;
+        right: 0;
+        width: 75%;
+    }
+
+    .carLogo_scroll img {
+        width: 60% !important;
+    }
+
+    .two {
+        padding: 3rem 0rem;
+    }
+
+    .two .heading h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+        text-transform: capitalize;
+        line-height: 1.4;
+    }
+
+    .two_content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .two_content .twoBox {
+        width: 33%;
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+
+    .two_content .twoBox img {
+        width: 50px;
+        margin-bottom: 1rem;
+    }
+
+    .two_content .twoBox h3 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .two_content .twoBox p {
+        font-size: .8rem;
+    }
+
+    .third {
+        padding: 3rem 0;
+    }
+
+    .third .heading h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .third_content {
+        flex-wrap: wrap;
+    }
+
+    .third_content .thirdbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        width: 88%;
+        margin: auto;
+    }
+
+    .third_content .thirdbox .boxtxt:nth-of-type(1) {
+        background-color: #9ED4FF;
+        padding: 3rem 1rem 3rem 1rem;
+        order: 1;
+    }
+
+    .third_content .thirdbox .boxtxt h3 {
+        font-size: 2.2rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    .third_content .thirdbox .boxtxt p {
+        font-size: 1.5rem;
+    }
+
+    .third_content .thirdbox .boxtxt:nth-of-type(2) {
+        background-color: #EBDDCA;
+        padding: 3rem 1rem 3rem 1rem;
+    }
+
+    .four {
+        padding: 3rem 0rem;
+    }
+
+    .four .four_left_bx .btn {
+        margin-top: 1rem;
+    }
+
+    .four .four_left_bx {
+        margin-bottom: 2rem;
+    }
+
+    .five {
+        padding: 3rem 0;
+    }
+
+    .five .heading h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    .five .heading {
+        margin-bottom: 1rem;
+    }
+
+    .six_content {
+        margin-top: 2rem;
+    }
+
+    .six_content h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .six_content ol li {
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-top: 1rem;
+    }
+
+    .seven {
+        padding: 3rem 0;
+    }
+
+    .seven .left_bx h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .seven .left_bx p {
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        font-weight: 400;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .eight {
+        padding: 3rem 0;
+    }
+
+    .eight .heading h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    .nine {
+        padding: 3rem 0;
+        background-repeat: no-repeat;
+    }
+
+    .nine h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    .ten {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(240, 240, 240, 0.9)), url('./img/footerbg.png');
+        position: relative;
+        margin-top: 4rem;
+        padding: 10rem 0 3rem 0;
+    }
+
+    .ten .form {
+        width: 100%;
+        background-color: #EBDDCA;
+        border-radius: 2rem;
+        padding: 2rem 1rem;
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .third_content .thirdbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        width: 31%;
+        margin: unset;
+    }
+
+    .third .heading h2 {
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .third_content .thirdbox .boxtxt:nth-of-type(1) {
+        background-color: #9ED4FF;
+        padding: 1rem 1rem 1rem 1rem;
+        order: 0;
+    }
+
+    .third_content .thirdbox .boxtxt {
+        border-radius: 1rem;
+    }
+
+    .third_content .thirdbox .boxtxt h3 {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    .third_content .thirdbox .boxtxt p {
+        font-size: 1rem;
+    }
+
+    .third_content .thirdbox .boxtxt:nth-of-type(2) {
+        background-color: #EBDDCA;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .four {
+        padding: 2rem 0rem;
+    }
+
+    .four .four_left_bx h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .four .four_left_bx p:nth-of-type(1) {
+        font-size: 0.75rem;
+    }
+
+    .four .four_left_bx .btn {
+        margin-top: 0rem;
+        font-size: 0.8rem;
+        padding: .75rem;
+    }
+
+    .four .four_left_bx p:nth-of-type(2) {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .six {
+        background-color: #EBDDCA5E;
+        padding: 3rem 0;
+    }
+
+    .six_content h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .six_content ol li {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 1rem;
+    }
+
+    .six_content {
+        margin-top: 0rem;
+    }
+
+    .four_right_bx .tab-content {
+        width: 100%;
+        border-radius: 1rem;
+        max-height: 100%;
+        overflow: hidden;
+    }
+
+    .four_right_bx .nav .nav-link {
+        padding: 0;
+        background: #fff;
+        border-radius: 1.5rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        width: 32%;
+    }
+
+    .four_right_bx .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row !important;
+        margin: 0 !important;
+        justify-content: space-between;
+    }
+
+    .five .heading h1 {
+        font-size: 2.2rem;
+        text-align: center;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    .review_container {
+        margin-top: 1rem;
+    }
+
+    .seven .left_bx h2 {
+        font-size: 1.75rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-align: left;
+    }
+
+    .seven .left_bx p {
+        font-size: 1rem;
+        text-transform: capitalize;
+        font-weight: 400;
+        margin-top: 1rem;
+        text-align: left;
+    }
+
+    .nine h2 {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    .nine p {
+        font-size: 1.5rem;
+        text-align: center;
+        text-transform: capitalize;
+        color: #fff;
+        margin: 0;
+    }
+
+    .ten {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(240, 240, 240, 0.9)), url('./img/footerbg.png');
+        position: relative;
+        margin-top: 4rem;
+        padding: 12rem 0 3rem 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero_content {
+        margin-top: 3rem;
+        width: 70%;
+    }
+
+    .right_bx {
+        position: absolute;
+        bottom: 1%;
+        right: 0;
+        width: 69%;
+    }
+
+    .hero_content .left_bx .btn {
+        margin-top: 1rem;
+    }
+
+    .two_content .twoBox img {
+        width: 70px;
+        margin-bottom: 1rem;
+    }
+
+    .two_content .twoBox h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .two_content .twoBox p {
+        font-size: 1rem;
+    }
+
+    .third .heading h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .third_content .thirdbox .boxtxt:nth-of-type(1) {
+        background-color: #9ED4FF;
+        padding: 4.5rem 1rem 4.5rem 1rem;
+        order: 0;
+    }
+
+    .third_content .thirdbox .boxtxt:nth-of-type(2) {
+        background-color: #EBDDCA;
+        padding: 4.5rem 1rem 4.5rem 1rem;
+    }
+
+    .third_content {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .third_content .thirdbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        width: 32%;
+        margin: unset;
+    }
+
+    .four .four_left_bx h2 {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .four .four_left_bx p:nth-of-type(1) {
+        font-size: 1.2rem;
+    }
+
+    .four .four_left_bx .btn {
+        margin-top: 0rem;
+        font-size: 1rem;
+        padding: .75rem;
+    }
+
+    .four_right_bx {
+        display: flex;
+        gap: 20px;
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+
+    .four_right_bx .nav {
+        width: 26%;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .four_right_bx .nav .nav-link {
+        padding: 0;
+        background: #fff;
+        border-radius: 1.2rem;
+        overflow: hidden;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .review_container .review_card {
+        background-color: #fff;
+        padding: 2rem 1rem;
+        text-align: center;
+        max-height: 606px;
+    }
+
+    .six_content h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .six_content ol li {
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-top: 1rem;
+    }
+
+    .six .m-auto {
+        margin: 0 !important;
+    }
+
+    .seven .left_bx h2 {
+        font-size: 2.2rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-align: left;
+    }
+
+    .seven .left_bx p {
+        font-size: 2rem;
+        text-transform: capitalize;
+        font-weight: 400;
+        margin-top: 1rem;
+        text-align: left;
+    }
+
+    .appo_bg::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(50%, -50%);
+        background: #9ed3ffa8;
+        border-radius: 50%;
+        width: 50%;
+        height: 50%;
+        z-index: -1;
+    }
+
+    .nine h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    .ten {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(240, 240, 240, 0.9)), url('./img/footerbg.png');
+        position: relative;
+        margin-top: 4rem;
+        padding: 16rem 0 3rem 0;
+    }
+
+    .submit-btn {
+        text-align: left;
+        margin-top: 2rem;
+    }
+
+    .four {
+        padding: 3rem 0rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero_content .left_bx h2 {
+        font-size: 3.5rem;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+
+    .right_bx {
+        position: absolute;
+        bottom: 2%;
+        right: 0;
+        width: 60%;
+    }
+
+    .hero_content {
+        margin-top: 3rem;
+        width: 50%;
+    }
+
+    .hero_content .left_bx p {
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-top: 1rem;
+    }
+
+    .two .heading h2 {
+        font-size: 2.5rem;
+        font-weight: 400;
+        text-align: center;
+        text-transform: capitalize;
+        line-height: 1.4;
+    }
+
+    .two_content .twoBox img {
+        width: 80px;
+        margin-bottom: 1rem;
+    }
+
+    .two_content .twoBox h3 {
+        font-size: 2rem;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .two_content .twoBox p {
+        font-size: 1.2rem;
+    }
+
+    .third .heading h2 {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .third_content .thirdbox .boxtxt h3 {
+        font-size: 2.2rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    .third_content .thirdbox .boxtxt p {
+        font-size: 1.3rem;
+    }
+
+    .four .four_left_bx h2 {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .four .four_left_bx p:nth-of-type(1) {
+        font-size: 1.5rem;
+    }
+
+    .four .four_left_bx p:nth-of-type(2) {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .four .four_left_bx .btn {
+        margin-top: 0rem;
+        font-size: 1.5rem;
+        padding: 1rem 1rem;
+    }
+
+    .two {
+        padding: 4rem 0rem;
+    }
+
+    .third {
+        padding: 4rem 0;
+    }
+
+    .four {
+        padding: 4rem 0rem;
+    }
+
+    .five {
+        padding: 4rem 0;
+    }
+
+    .five .heading h1 {
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    .review_card .name h3 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+
+    .review_card .start {
+        color: #ffdb00;
+        font-size: 1.75rem;
+    }
+
+    .google_icon img {
+        width: 30px !important;
+    }
+
+    .google_icon p {
+        margin: 0;
+        font-size: 1.1rem;
+    }
+
+    .six {
+        background-color: #EBDDCA5E;
+        padding: 4rem 0;
+    }
+
+    .six_content h2 {
+        font-size: 3rem;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .six_content ol li {
+        font-size: 2.5rem;
+        font-weight: 400;
+        margin-top: 1rem;
+    }
+
+    .seven {
+        padding: 4rem 0;
+    }
+
+    .seven .left_bx h2 {
+        font-size: 3rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-align: left;
+    }
+
+    .seven .left_bx p {
+        font-size: 2.75rem;
+        text-transform: capitalize;
+        font-weight: 400;
+        margin-top: 1rem;
+        text-align: left;
+    }
+
+    .eight .heading h2 {
+        font-size: 3rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    .nine h2 {
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    .nine p {
+        font-size: 1.75rem;
+        text-align: center;
+        text-transform: capitalize;
+        color: #fff;
+        margin: 0;
+    }
+
+    .ten {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(240, 240, 240, 0.9)), url('./img/footerbg.png');
+        position: relative;
+        margin-top: 4rem;
+        padding: 23rem 0 3rem 0;
+    }
+
+    .ten .form {
+        width: 100%;
+        background-color: #EBDDCA;
+        border-radius: 2rem;
+        padding: 2rem 2rem;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1400px) {
+    .right_bx {
+        position: absolute;
+        bottom: 2%;
+        right: 0;
+        width: 50%;
+    }
+
+    .carLogo_scroll img {
+        width: 80% !important;
+    }
+}
