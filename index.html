@@ -377,7 +377,7 @@
           <div class="row">
             <div class="col-md-12">
               <div class="heading">
-                <h1>What Peoples Say About Us on Google</h1>
+                <h1>What Clients Say About Us on Google</h1>
               </div>
             </div>
             <div class="col-md-12">
@@ -635,7 +635,7 @@
       <section class="ten" id="contact">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <!-- <div class="col-md-12">
               <div class="form">
                 <form class="company_form" id="contactForm">
                   <div class="form_inputs">
@@ -679,10 +679,17 @@
                   </div>
                 </form>
               </div>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col m-auto">
+              <img src="img/footer.png" alt="" class="img-fluid" />
             </div>
           </div>
         </div>
-        <img src="img/footer.png" alt="" class="img-fluid" />
       </section>
       <!-- ten section end -->
     </main>
@@ -751,35 +758,6 @@
           },
         },
       });
-    </script>
-    <!-- mail -->
-    <script type="text/javascript">
-      document
-        .getElementById("contactForm")
-        .addEventListener("submit", async function (e) {
-          e.preventDefault();
-
-          const form = {
-            name: e.target.name.value,
-            email: e.target.email.value,
-            message: e.target.message.value,
-          };
-
-          document.getElementById("status").innerText = "Sending...";
-
-          try {
-            const res = await fetch("/api/send-email", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify(form),
-            });
-
-            const data = await res.json();
-            document.getElementById("status").innerText = data.message;
-          } catch (err) {
-            document.getElementById("status").innerText = "Failed to send";
-          }
-        });
     </script>
   </body>
 </html>
