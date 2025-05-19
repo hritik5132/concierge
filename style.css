@@ -78,6 +78,70 @@ body {
     margin-top: 3rem;
 }
 
+/* review  */
+
+.testimonial-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    margin-top: 3rem;
+    background: #fff;
+    border-radius: 1rem;
+}
+
+.testimonial-banner img.profile {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 0px 0;
+}
+
+.testimonial-title {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.stars {
+    color: gold;
+    font-size: 1.1rem;
+    margin-bottom: 0px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 16px;
+    max-width: 600px;
+}
+
+@media (min-width: 768px) {
+    .testimonial-banner {
+        flex-direction: row;
+        /* justify-content: center; */
+        text-align: left;
+        gap: 20px;
+    }
+
+    .quote {
+        font-size: 18px;
+        max-width: none;
+    }
+}
+
+
+
+
+
+
 .right_bx {
     position: absolute;
     bottom: 8%;
@@ -122,6 +186,12 @@ body {
     width: 33%;
     text-align: center;
     padding: 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+    min-height: 240px;
 }
 
 .two_content .twoBox img {
@@ -263,6 +333,13 @@ body {
 
 .four_right_bx .nav .nav-link iframe {
     pointer-events: none;
+}
+
+
+.four_right_bx iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 1rem;
 }
 
 .five {

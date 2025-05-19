@@ -1,5 +1,22 @@
 @media only screen and (max-width: 575.98px) {
 
+    .four_right_bx iframe {
+        width: 100%;
+        height: 310px;
+        border-radius: 1rem;
+    }
+
+    .testimonial-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+        margin-top: 1rem;
+        background: #fff;
+        border-radius: 1rem;
+        margin-bottom: 3rem;
+    }
 
     .copy .col-md-4 {
         margin: auto;
