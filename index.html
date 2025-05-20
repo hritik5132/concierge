@@ -694,16 +694,19 @@
     $("#videos").owlCarousel({
       loop: true,
       margin: 10,
-      nav: false,
+      dots: false,
+      nav: true,
       responsive: {
         0: {
           items: 1,
+          stagePadding: 50,
         },
         600: {
           items: 1,
+          stagePadding: 100,
         },
         1000: {
-          items: 1,
+          items: 1, stagePadding: 150,
         },
       },
     });

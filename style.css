@@ -590,3 +590,14 @@ body {
 .ten .form .form-group label {
     font-weight: 500;
 }
+
+.four_right_bx .owl-carousel .owl-nav button.owl-next,
+.four_right_bx .owl-carousel .owl-nav button.owl-prev {
+    width: 35px;
+    height: 35px;
+    background: #2a548f;
+    border-radius: 5rem;
+    color: #fff;
+    font-size: 22px;
+    line-height: normal;
+}
